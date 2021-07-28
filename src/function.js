@@ -9,15 +9,7 @@ function formatDate(timestamp) {
     minutes = `0${minutes}`;
   }
 
-  let days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-  ];
+  let days = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
   let day = days[date.getDay()];
   return `${day} ${hours}:${minutes}`;
 }
@@ -51,10 +43,10 @@ function displayForecast(response) {
           width="42"
         />
         <div class="weather-forecast-temperatures">
-          <span class="weather-forecast-temperature-max"> ${Math.round(
+          <span class="weather-forecast-temperature-max"> Hi ${Math.round(
             forecastDay.temp.max
-          )}° </span>
-          <span class="weather-forecast-temperature-min"> ${Math.round(
+          )}° </span><br>
+          <span class="weather-forecast-temperature-min"> Lo ${Math.round(
             forecastDay.temp.min
           )}° </span>
         </div>
