@@ -54,22 +54,25 @@ h2 {
   border: none;
   transition: 0.2s;
   background: #ec6e4c;
+  border: 1px solid #ec6e4c;
   color: white;
-  box-shadow: 0 0 1px #222831;
+  box-shadow: 1px 1px 2px #a0a0a0;
 }
 .btn-primary:hover {
   background: #393e46;
-  border: none;
+  border: 1px solid #393e46;
   color: white;
+  box-shadow: 1px 1px 2px #a0a0a0;
 }
 .form-control {
   border-color: #ec6e4c;
   border-style: solid;
   border-width: thin;
   border-radius: 4px;
+  box-shadow: 1px 1px 2px #a0a0a0;
 }
 .weather-app-wrapper {
-  border: 1px solid #222831;
+  border: 1px solid #393e46;
   max-width: 600px;
   margin: 30px auto;
   border-radius: 5px;
