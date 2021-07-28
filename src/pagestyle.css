@@ -30,7 +30,6 @@ li {
   font-weight: 500;
   line-height: 19px;
   text-align: right;
-
   margin-top: 15px;
 }
 li:first-letter {
@@ -100,6 +99,7 @@ h2 {
   margin-right: 5px;
   height: 95px;
   width: 95px;
+  padding-left: 0;
 }
 .weather-temperature strong {
   color: #222831;
