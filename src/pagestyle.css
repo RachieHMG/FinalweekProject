@@ -1,9 +1,8 @@
 body {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   background-color: #393e46;
   font-weight: 400;
 }
-
 h1 {
   color: #ec6e4c;
   font-size: 43px;
@@ -18,14 +17,10 @@ strong {
   color: #222831;
   text-shadow: 1px 1px 2px #e98063;
 }
-.units {
-  font-weight: 500;
-}
 ul {
   margin: 0;
   padding: 0;
 }
-
 li {
   list-style: none;
   margin: 0;
@@ -35,7 +30,8 @@ li {
   font-weight: 500;
   line-height: 19px;
   text-align: right;
-  margin-bottom: 5px;
+
+  margin-top: 15px;
 }
 li:first-letter {
   text-transform: capitalize;
@@ -50,6 +46,9 @@ h2 {
   font-size: 20px;
   font-weight: 500;
   line-height: 19px;
+}
+.units {
+  font-weight: 500;
 }
 .btn-primary {
   border-radius: 5px;
@@ -70,7 +69,6 @@ h2 {
   border-width: thin;
   border-radius: 4px;
 }
-
 .weather-app-wrapper {
   border: 1px solid #222831;
   max-width: 600px;
@@ -79,7 +77,6 @@ h2 {
   background-color: #ffffff;
   padding: 20px;
 }
-
 .weather-app {
   padding-top: 10px;
   padding-right: 20px;
@@ -101,32 +98,20 @@ h2 {
 
 .weather-temperature img {
   margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  height: 95px;
+  width: 95px;
 }
-
 .weather-temperature strong {
   color: #222831;
   font-size: 64px;
-  line-height: 1;
+  line-height: 1.5;
   font-weight: 400;
 }
-
 .weather-temperature .units {
   position: relative;
   font-size: 16px;
   top: -34px;
 }
-
-.weather-temperature .active {
-  color: #222831;
-  cursor: pointer;
-}
-
-.weather-temperature .active:hover {
-  text-decoration: none;
-}
-
 .weather-forecast {
   margin-top: 20px;
   margin-bottom: -20px;
@@ -134,18 +119,15 @@ h2 {
   font-weight: 400;
   color: #002a30;
 }
-
 .weather-forecast-date {
   font-size: 16px;
   opacity: 0.6;
   font-weight: 500;
   padding-bottom: 5px;
 }
-
 .weather-forecast-temperature-min {
   opacity: 0.6;
 }
-
 .weather-forecast-temperatures {
   font-size: 15px;
   padding-top: 10px;
